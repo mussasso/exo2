@@ -1,0 +1,26 @@
+section{
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+h4:nth-child(3) {
+    color: blue;
+}
+section:nth-child(2){
+    border-bottom: 5px solid red;
+}
+section:nth-child(3) h3,li{
+    color: red;
+}
+section:nth-child(4) li:nth-child(2){
+    font-size: 25px;
+}
+section:nth-child(5)>span:nth-child(5){
+    color: blue;
+}
+section:nth-child(6)>img{
+    border-radius: 50%;
+    background-color: gray;
+}
+section:nth-child(7) > p:hover{
+    color: green;
+}
